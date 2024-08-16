@@ -1,0 +1,7 @@
+INSTAGRAM_CLIENT_ID = "" # The client ID provided by Instagram when you register your application
+INSTAGRAM_CLIENT_SECRET = "" # The client secret provided by Instagram when you register your application
+INSTAGRAM_AUTH_CALLBACK_URI = "https://192.168.1.15:5000/callback"  # The redirect URI specified in the Instagram Developer Dashboard
+DEBUG = 1 # Set to True to enable debug logging
+DESCRIBE_IMAGE_PROMPT = "prompts/describe_image.md"
+DESCRIBE_ALBUM_PROMPT = "prompts/describe_album.md"
+MODEL = 'gpt-4o'
